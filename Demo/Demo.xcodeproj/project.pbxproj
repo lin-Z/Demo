@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63158DB51E77D4CF00E6AFF1 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63158DB41E77D4CF00E6AFF1 /* TestViewController.m */; };
 		FE1A22EB1E77D09D00B125A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1A22EA1E77D09D00B125A8 /* main.m */; };
 		FE1A22EE1E77D09D00B125A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1A22ED1E77D09D00B125A8 /* AppDelegate.m */; };
 		FE1A22F11E77D09D00B125A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1A22F01E77D09D00B125A8 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63158DB31E77D4CF00E6AFF1 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		63158DB41E77D4CF00E6AFF1 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		FE1A22E61E77D09D00B125A8 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1A22EA1E77D09D00B125A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE1A22EC1E77D09D00B125A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				FE1A22ED1E77D09D00B125A8 /* AppDelegate.m */,
 				FE1A22EF1E77D09D00B125A8 /* ViewController.h */,
 				FE1A22F01E77D09D00B125A8 /* ViewController.m */,
+				63158DB31E77D4CF00E6AFF1 /* TestViewController.h */,
+				63158DB41E77D4CF00E6AFF1 /* TestViewController.m */,
 				FE1A22F21E77D09D00B125A8 /* Main.storyboard */,
 				FE1A22F51E77D09D00B125A8 /* Assets.xcassets */,
 				FE1A22F71E77D09D00B125A8 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				FE1A22F11E77D09D00B125A8 /* ViewController.m in Sources */,
 				FE1A22EE1E77D09D00B125A8 /* AppDelegate.m in Sources */,
+				63158DB51E77D4CF00E6AFF1 /* TestViewController.m in Sources */,
 				FE1A22EB1E77D09D00B125A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +316,7 @@
 				FE1A22FF1E77D09D00B125A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
